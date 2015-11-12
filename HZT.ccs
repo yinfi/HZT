@@ -1,0 +1,241 @@
+<Solution>
+  <PropertyGroup Name="HZT" Version="2.3.2.3" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="LessonMenuScene.csd" Type="Scene" />
+        <Folder Name="menu">
+          <Folder Name="menuSource">
+            <Image Name="back_ground.jpg" />
+            <Image Name="ballon_blue.png" />
+            <Image Name="ballon_red.png" />
+            <Image Name="cloud1.png" />
+            <Image Name="cloud2.png" />
+            <Image Name="cloud3.png" />
+            <Image Name="front.png" />
+            <Image Name="lesson_list.png" />
+            <Image Name="menu_back_ground.png" />
+          </Folder>
+        </Folder>
+        <Project Name="CloudNode.csd" Type="Node" />
+        <Project Name="BallonRedNode.csd" Type="Node" />
+        <Project Name="BallonBlueNode.csd" Type="Node" />
+        <Project Name="Cloud2Node.csd" Type="Node" />
+        <Folder Name="MainSence">
+          <Image Name="back_groud.jpg" />
+          <Image Name="button_back.png" />
+          <Image Name="button_chao.png" />
+          <Image Name="button_chong.png" />
+          <Image Name="button_dian.png" />
+          <Image Name="button_e.png" />
+          <Image Name="button_gold.png" />
+          <Image Name="button_gray.png" />
+          <Image Name="button_guo.png" />
+          <Image Name="button_ji.png" />
+          <Image Name="button_ju.png" />
+          <Image Name="button_qie.png" />
+          <Image Name="button_you.png" />
+          <Image Name="father_son.png" />
+          <Image Name="gold_star.png" />
+          <Image Name="gray_star.png" />
+          <Image Name="path.png" />
+          <Image Name="template.jpg" />
+          <Image Name="title.png" />
+          <Image Name="tree1.png" />
+          <Image Name="tree2.png" />
+          <Image Name="tree3.png" />
+          <Project Name="Word1Node.csd" Type="Node" />
+        </Folder>
+        <TTF Name="GB2312.ttf" />
+        <Project Name="PinyingScene.csd" Type="Scene" />
+        <Folder Name="1pinyin">
+          <Image Name="audio_button.png" />
+          <Image Name="audio_button_chocied.png" />
+          <Image Name="back_ground.png" />
+          <Image Name="cricle.png" />
+          <Image Name="hand.png" />
+          <Folder Name="info">
+            <Image Name="er.png" />
+            <Image Name="ji-left.png" />
+            <Image Name="ji-right.png" />
+            <Image Name="ji.png" />
+            <Image Name="jie.png" />
+            <Image Name="yi.png" />
+          </Folder>
+          <Audio Name="ji.mp3" />
+          <Folder Name="right">
+            <Image Name="horn1.png" />
+            <Image Name="horn2.png" />
+            <Image Name="horn3.png" />
+            <Image Name="right.png" />
+          </Folder>
+          <Folder Name="wrong">
+            <Image Name="close.png" />
+            <Image Name="open.png" />
+            <Image Name="wihte.png" />
+            <Image Name="wrong.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="framework">
+          <Image Name="base_map.jpg" />
+          <Image Name="button_menu.png" />
+          <Image Name="choice_1.png" />
+          <Image Name="choice_2.png" />
+          <Image Name="choice_3.png" />
+          <Image Name="choice_4.png" />
+          <Image Name="choice_5.png" />
+          <Image Name="Ladybug.png" />
+          <Image Name="Ladybugfeet.png" />
+          <Image Name="rim_1.png" />
+          <Image Name="rim_2.png" />
+          <Image Name="rim_3.png" />
+          <Image Name="rim_4.png" />
+          <Image Name="tag_5_1.png" />
+          <Image Name="tag_5_2.png" />
+          <Image Name="tag_5_3.png" />
+          <Image Name="title_pinyin.png" />
+          <Image Name="vine.png" />
+          <Image Name="a.png" />
+          <Image Name="bihua1.png" />
+          <Image Name="bihua2.png" />
+          <Image Name="bihua3.png" />
+          <Image Name="closedeye.png" />
+          <Image Name="e.png" />
+          <Image Name="o.png" />
+          <Image Name="openeye.png" />
+          <Image Name="pintu1.png" />
+          <Image Name="pintu2.png" />
+          <Image Name="pinyin.png" />
+          <Image Name="tone1.png" />
+          <Image Name="tone2.png" />
+          <Image Name="tone3.png" />
+          <Image Name="zixing.png" />
+          <Image Name="zuci.png" />
+          <Project Name="BackFrameNode.csd" Type="Node" />
+          <Project Name="LadyBugNode.csd" Type="Node" />
+          <Project Name="ChoiceNode.csd" Type="Node" />
+          <Folder Name="elephant">
+            <Image Name="ball.png" />
+            <Image Name="body.png" />
+            <Image Name="close-eye.png" />
+            <Image Name="foot-left.png" />
+            <Image Name="foot-right.png" />
+            <Image Name="hat.png" />
+            <Image Name="nose.png" />
+            <Image Name="open-eye.png" />
+            <Image Name="tail.png" />
+            <Project Name="moveElephantNode.csd" Type="Node" />
+          </Folder>
+        </Folder>
+        <Project Name="ZixingScene.csd" Type="Scene" />
+        <Folder Name="2bishun">
+          <Image Name="background.png" />
+          <Image Name="bihua1.png" />
+          <Image Name="bihua2.png" />
+          <Image Name="bihua3.png" />
+          <Image Name="button_enlarge.png" />
+          <Image Name="button_enlarg_choice.png" />
+          <Image Name="button_read_choice.png" />
+          <Image Name="button_write_choice.png" />
+          <Image Name="ji_litter.png" />
+          <Folder Name="look">
+            <Image Name="back_ground_look.png" />
+            <Image Name="ji-left.png" />
+            <Image Name="ji-right.png" />
+            <Image Name="template.jpg" />
+          </Folder>
+          <Folder Name="write">
+            <Image Name="backgroud.png" />
+            <Folder Name="bihua">
+              <Image Name="1.png" />
+              <Image Name="2.png" />
+              <Image Name="3.png" />
+              <Image Name="4.png" />
+              <Image Name="5.png" />
+              <Image Name="6.png" />
+            </Folder>
+            <Image Name="cross_background.jpg" />
+            <Image Name="ji-miaobian.png" />
+            <Image Name="white_back.jpg" />
+            <File Name="write.mp4" />
+            <Image Name="write_background.png" />
+            <Image Name="write_button.png" />
+            <Image Name="write_unchoice_button.png" />
+            <Folder Name="xiefa">
+              <Image Name="1.png" />
+              <Image Name="2.png" />
+              <Image Name="3.png" />
+              <Image Name="4.png" />
+              <Image Name="5.png" />
+              <Image Name="6.png" />
+            </Folder>
+          </Folder>
+          <Image Name="title_2.png" />
+        </Folder>
+        <Folder Name="3zuci">
+          <Image Name="BackGroun.png" />
+          <Image Name="BlueFlower.png" />
+          <Image Name="Flower1.png" />
+          <Image Name="Flower2.png" />
+          <Image Name="Flower3.png" />
+          <Image Name="Flower4.png" />
+          <Folder Name="ItemWord">
+            <Image Name="Bei.png" />
+            <Image Name="Bie.png" />
+            <Image Name="Cha.png" />
+            <Image Name="Dong.png" />
+            <Image Name="Gao.png" />
+            <Image Name="Ji.png" />
+            <Image Name="Nian.png" />
+            <Image Name="Su.png" />
+          </Folder>
+          <Image Name="Line1.png" />
+          <Image Name="Line2.png" />
+          <Image Name="Line3.png" />
+          <Folder Name="ModifyWord">
+            <Image Name="bie3.png" />
+            <Image Name="cha4.png" />
+            <Image Name="gao1.png" />
+            <Image Name="ji.png" />
+            <Image Name="nian1.png" />
+            <Project Name="FlowerNode.csd" Type="Node" />
+          </Folder>
+          <Image Name="Reset.png" />
+          <Image Name="ResetChoice.png" />
+          <Image Name="Start1.png" />
+          <Image Name="Start2.png" />
+          <Image Name="Start3.png" />
+          <Image Name="Start4.png" />
+          <Image Name="Submit.png" />
+          <Image Name="SubmitChoice.png" />
+          <Image Name="WhiteFlower.png" />
+          <Image Name="WrongTip.png" />
+          <Image Name="title_zuci.png" />
+        </Folder>
+        <Folder Name="4bianzi">
+          <Image Name="background.png" />
+          <Image Name="bei.png" />
+          <Image Name="deng.png" />
+          <Image Name="ji.png" />
+          <Image Name="ji2.png" />
+          <Image Name="ji_2.png" />
+          <Image Name="ji_big.png" />
+          <Image Name="title_bianzi.png" />
+        </Folder>
+        <Project Name="ZuCiScene.csd" Type="Scene" />
+        <Project Name="BianZiScene.csd" Type="Scene" />
+        <Project Name="ZaojuScene.csd" Type="Scene" />
+        <Folder Name="5zaoju">
+          <Image Name="back_ground.png" />
+          <Image Name="beiji.png" />
+          <Image Name="gaoji.png" />
+          <Image Name="jicha.png" />
+          <Image Name="nianji.png" />
+          <Image Name="right.png" />
+          <Image Name="title_zaoju.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

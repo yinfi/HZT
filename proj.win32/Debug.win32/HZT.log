@@ -1,0 +1,27 @@
+﻿Build started 2015/11/8 10:23:49.
+     1>Project "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\HZT.vcxproj" on node 2 (Build target(s)).
+     1>PreLinkEvent:
+         if not exist "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\" mkdir "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.8\prebuilt\win32\*.*" "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         HZT.vcxproj -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\HZT.exe
+       CustomBuildStep:
+         if not exist "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\" mkdir "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\"
+         xcopy "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\..\Resources" "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         E:\HZT\template\Cocos\CocosProjects\HZT\Resources\BallonBlueNode.csb -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\BallonBlueNode.csb
+         E:\HZT\template\Cocos\CocosProjects\HZT\Resources\BallonRedNode.csb -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\BallonRedNode.csb
+         E:\HZT\template\Cocos\CocosProjects\HZT\Resources\Cloud2Node.csb -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\Cloud2Node.csb
+         E:\HZT\template\Cocos\CocosProjects\HZT\Resources\CloudNode.csb -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\CloudNode.csb
+         E:\HZT\template\Cocos\CocosProjects\HZT\Resources\LessonMenuScene.csb -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\LessonMenuScene.csb
+         E:\HZT\template\Cocos\CocosProjects\HZT\Resources\MainScene.csb -> E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\Debug.win32\MainScene.csb
+         复制了 6 个文件
+     1>Done Building Project "E:\HZT\template\Cocos\CocosProjects\HZT\proj.win32\HZT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09
